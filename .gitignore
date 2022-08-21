@@ -12,7 +12,7 @@
 *.pch
 
 
-.vscode
+
 
 # Compiled Dynamic libraries
 *.so
@@ -23,6 +23,7 @@
 *.mod
 *.smod
 
+*.vscode
 # Compiled Static libraries
 *.lai
 *.la
