@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
     int vetor[10];
-    int quantidade = 0;
+    int amount = 0;
 
     for (int i = 0; i < 10; i++)
     {
@@ -18,10 +18,14 @@ int main()
         if (vetor[i] % 2 == 0)
         {
             cout << vetor[i] << endl;
-            quantidade = quantidade + 1;
+            amount = amount + 1;
+        }
+        else
+        {
+            cout << 0 << endl;
         }
     }
-    cout << "Numbers of even: " << quantidade;
+    cout << "Numbers of even: " << amount;
 
     return 0;
 }

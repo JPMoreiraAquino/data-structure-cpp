@@ -8,7 +8,7 @@ int main()
 
     for (int i = 0; i < 10; i++)
     {
-        cout << "Enter the vector value at the position: " << i << endl;
+        cout << "Enter the vector value at the position [" << i << "]:" << endl;
         cin >> vetor[i];
     }
 
