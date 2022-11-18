@@ -18,7 +18,9 @@ int main()
     for (int j = i + 1; j < 2; j++)
     {
       int r = strcmp(nome[i], nome[j]);
-      if (r > 0)
+      exit
+
+          if (r > 0)
       {
         strcpy(aux, nome[i]);
         strcpy(nome[i], nome[j]);
